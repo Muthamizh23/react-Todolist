@@ -1,0 +1,123 @@
+
+ .input-container {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .input-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    margin-left: 2%;
+    width: 80%;
+    margin-top: 20px;
+    
+  }
+  
+  .input-container input,
+  .input-container select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Make input fields and select box full width */
+    margin-left: 40px;
+    
+  }
+  
+  .input-container button {
+    padding: 10px ;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:70%;
+    margin-left: 60px;
+    border: 1px solid gray;
+
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional CSS for body background */
+  body {
+    background: linear-gradient(135deg, #2ec4df, #128ec7);
+    margin: 0;
+    padding: 0;
+    
+    font-family: Arial, sans-serif;
+  }
+  /* styles.css */
+  .card {
+    background-color: #ffffff; /* White background */
+    border: none; /* No border */
+    width: 100%;
+    padding: 10px 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Larger title font size */
+    padding: 20px 10px 0px 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Normal text font size */
+  }
+  
+  /* Shadow color set to blue */
+  .shadow-lg {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 255, 0.15) !important;
+  }
+  
+  /* Center align text in card body */
+  .card-body {
+    text-align: center;
+  }
+  .form-container {
+    text-align: center;
+  }
+  
+  .form-container input {
+    margin-right: 10px;
+  }
+  .filter-btn{
+    text-align: center;
+    margin-left: 80%;
+  }
+  .select-btn{
+    padding: 10px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .form-control{
+    padding: 10px;
+    font-weight: bold;
+    
+  }
+  .edit-btn{
+    padding:5px;
+    margin: 10px;
+    width: 60px;
+    background-color: rgb(25, 163, 25);
+    border-radius: 5px;
+    border: none;
+  }
+  .delete-btn{
+    padding:5px;
+    margin: 10px;
+    width: 60px;
+    background-color: rgb(199, 22, 22);
+    border-radius: 5px;
+    border: none;
+  }
